@@ -102,11 +102,11 @@
 
 #### Level 2
 
-​	◼ []
+​	◼ [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)
 
-​	◼ []
+​	◼ [124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899)
 
-
+​	◼ [스킬 트리](https://programmers.co.kr/learn/courses/30/lessons/49993)
 
 ##### References of this doc
 
