@@ -14,6 +14,8 @@
 
 #### Level 1
 
+<details><summary>Problems</summary>
+
 ​	◼ [크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061)
 
 ​	◼ [두 개 뽑아서 더하기](https://programmers.co.kr/learn/courses/30/lessons/68644)
@@ -100,13 +102,19 @@
 
 ​	◼ []
 
+</details>
+
 #### Level 2
+
+<details><summary>Problems</summary>
 
 ​	◼ [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)
 
 ​	◼ [124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899)
 
 ​	◼ [스킬 트리](https://programmers.co.kr/learn/courses/30/lessons/49993)
+
+</details>
 
 ##### References of this doc
 
