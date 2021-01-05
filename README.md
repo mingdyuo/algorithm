@@ -121,6 +121,12 @@
 
 ​	◼ [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)
 
+​	◼ [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586)
+
+​	◼ [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)
+
+​	◼ [삼각 달팽이](https://programmers.co.kr/learn/courses/30/lessons/68645)
+
 </details>
 
 ### Notes For Myself
@@ -143,7 +149,7 @@
 
 5. two pointer 문제 연습을 좀 해야할 것 같다. 경계값과, 증감 순서에 유의하자.
 
-   코드를 쓰기 전에 반드시 증감 시행 순서에 따라 시뮬레이션을 진행한 후 작성하자.
+   *<u>반드시</u> 증감* 시행 순서에 따라 시뮬레이션을 진행한 후 코드를 작성하자.
 
 
 
