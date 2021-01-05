@@ -14,7 +14,9 @@
 
 #### Level 1
 
-<details><summary>Problems</summary>
+<details><summary>Problems [CLICK]</summary>
+
+
 
 ​	◼ [크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061)
 
@@ -106,7 +108,8 @@
 
 #### Level 2
 
-<details><summary>Problems</summary>
+<details><summary>Problems [CLICK] </summary>
+
 
 ​	◼ [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587)
 
@@ -114,11 +117,33 @@
 
 ​	◼ [스킬 트리](https://programmers.co.kr/learn/courses/30/lessons/49993)
 
+​	◼ [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048)
+
+​	◼ [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583)
+
 </details>
 
-##### References of this doc
+### Notes For Myself
 
-[프로그래밍 대회에서 배우는 알고리즘 문제해결 전략](https://book.algospot.com/)
+1. `floating point exception`
+
+   `a % b` 혹은 `a / b`에서 `b = 0`인 경우 발생 가능
+
+2. 알파벳 `char ch;`를 일괄적으로 대문자 혹은 소문자로 변경
+
+   (1) 대문자로 : `ch = ch & ~(32);` 
+
+   (2) 소문자로 : `ch = ch | 32;`
+
+3. "algorithm" 헤더에 max_element는 큐에도 사용 가능
+
+   하지만 시간복잡도는 O(n)이라는 것
+
+4. 소수점이 발생하는 문제를 풀면 항상 경계값에서 주의하자.
+
+5. two pointer 문제 연습을 좀 해야할 것 같다. 경계값과, 증감 순서에 유의하자.
+
+   코드를 쓰기 전에 반드시 증감 시행 순서에 따라 시뮬레이션을 진행한 후 작성하자.
 
 
 
