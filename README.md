@@ -127,6 +127,12 @@
 
 ​	◼ [삼각 달팽이](https://programmers.co.kr/learn/courses/30/lessons/68645)
 
+​	◼ [카카오프렌즈 컬러링북](https://programmers.co.kr/learn/courses/30/lessons/1829)
+
+​	◼ [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)
+
+​	◼ [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)
+
 </details>
 
 ### Notes For Myself
@@ -151,5 +157,16 @@
 
    *<u>반드시</u> 증감* 시행 순서에 따라 시뮬레이션을 진행한 후 코드를 작성하자.
 
+6. vector.size()는 O(1)으로 for문의 비교 부분에 넣어도 되겠다.
 
+7. string container 메소드
 
+   > 1. compare : 문자열 사전순 비교
+   >
+   >    `str1.compare(str2)`
+   >
+   >    1) str1 == str2 → 0
+   >
+   >    2) str1 > str2  →  1
+   >
+   >    3) str1 < str2  →  2
