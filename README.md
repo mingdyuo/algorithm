@@ -133,6 +133,14 @@
 
 ​	◼ [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)
 
+​	◼ [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
+
+​	◼ []
+
+​	◼ []
+
+
+
 </details>
 
 ### Notes For Myself
@@ -170,3 +178,7 @@
    >    2) str1 > str2  →  1
    >
    >    3) str1 < str2  →  2
+
+8. min heap 만들기
+
+   `priority_queue<int, vector<int>, greater<int>> pq`
