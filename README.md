@@ -135,11 +135,19 @@
 
 ​	◼ [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626)
 
+​	◼ [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860)
+
+​	◼ [H-index](https://programmers.co.kr/learn/courses/30/lessons/42747)
+
+​	◼ [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
+
+​	◼ []
+
 ​	◼ []
 
 ​	◼ []
 
-
+​	◼ []
 
 </details>
 
@@ -182,3 +190,7 @@
 8. min heap 만들기
 
    `priority_queue<int, vector<int>, greater<int>> pq`
+   
+9. <algorithm> 헤더의 max 함수는 같은 자료형만 비교가 가능
+
+   someContainer.size()는 리턴 값이 unsinged int이기 때문에 (int)로 캐스팅 해줘야 한다.

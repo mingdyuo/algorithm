@@ -160,3 +160,106 @@
 > 앞에서부터 가장 큰 값을 찾는데, 이 때 왜 i+k까지인지 아직 이해가 잘 안된다
 >
 > [스택으로 푸는 풀이](https://devje8.tistory.com/4)도 있는데 좋은 발상인 것 같다.
+
+- [ ] **조이 스틱**
+
+> 21.01.09 **성공**
+>
+> 다른 사람의 코드를 구경하다가 내가 생각했던 원리와 같지만 훨씬 간결하게 표현한 코드가 있어 기록하려 한다.
+>
+> 목적은 무엇이냐면 name이라는 string 안에서 가장 긴 연속되는 'A' 길이에 대해 움직임 횟수를 찾는 것이다. 나는 이전 글자를 저장하고 다음 글자에서 매번 조건문을 확인하여 'A'의 개수를 확인 및 인덱스를 저장하였다. 그리고 반복문을 모두 돈 후 'A' 최대 배열 인덱스에 대한 최소 움직임 횟수를 구하였다. 근데 이 코드는, 'A' 배열을 한번에 찾고 거기서 바로 움직임 최소 횟수를 구해서 갱신하는 것이다. 
+>
+> <u>*나의 코드*</u>
+>
+> ```c++
+> // 목적 : 전부 다 돌면서 최대 A 연속배열을 다 구한 후 최소 움직임 횟수 찾기
+> int aCount = 0, aMaxCount = 0;
+> char prev = name[0];
+> int maxA[2];
+> vector<int> Aindex;
+> if (prev == 'A') {
+>     aCount++;
+>     Aindex.push_back(0);
+> }
+> for (int i = 1; i < name.size(); i++) {
+>     if (prev == 'A') {
+>         if (name[i] == 'A') {
+>             aCount++;
+>             Aindex.push_back(i);
+>         }
+>         else {
+>             if (aMaxCount < aCount) {
+>                 aMaxCount = aCount;
+>                 maxA[0] = Aindex.front();
+>                 maxA[1] = Aindex.back();
+>             }
+>             aCount = 0;
+>             Aindex.clear();
+>         }
+>     }
+>     else {
+>         if (name[i] == 'A') {
+>             aCount = 1;
+>             Aindex.push_back(i);
+>         }
+>     }
+>     prev = name[i];
+> }
+> if (prev == 'A' && aMaxCount < aCount) {
+>     aMaxCount = aCount;
+>     maxA[0] = Aindex.front();
+>     maxA[1] = Aindex.back();
+> }
+> int backwards = name.size() - maxA[1] + 2 * maxA[0] - 3,
+>     forwards = name.size() - 1;
+> answer += forwards < backwards ? forwards : backwards;
+> ```
+>
+> <u>*훨씬 간결한 코드*</u>
+>
+> ```c++
+> int len = name.length();
+> int left_right = len - 1;
+> for (int i = 0; i < len; ++i) {
+>    int next_i = i + 1;
+>    while (next_i < len && name[next_i] == 'A') // 'A'연속 배열 한번에 구하기
+>        next_i++;
+>    left_right = min(left_right, i + len - next_i + min(i, len - next_i));
+>     // 최소 움직임 횟수 구하기
+> }
+> ```
+>
+> 움직임 최소 횟수를 구하는 코드가 처음에는 이해가 잘 안됬다.
+>
+> ` i + len - next_i + min(i, len - next_i)` 
+>
+> 근데 왼쪽 들렸다 오는게 아니라 오른쪽 왕복을 하고 왼쪽은 편도로 가는게 빠른 경우도 있겠구나 라는 것을 깨달음 🤦🏻‍♀️
+
+- [ ] **H-index**
+
+> 21.01.09 **성공**
+>
+> 조금 더 디테일하게 값을 따져서 수식을 세우지 않아서 좀 시간 낭비를 했다.
+>
+> 인용 횟수를 정렬한 후, 인용 횟수보다 해당 인용 횟수 이상의 편수가 작거나 같으면 탈출하도록 조건을 짰는데, 작은 경우에 따져야 할 것이 추가로 있었다. 다시 말해서 인용 횟수가 해당 인용 횟수 이상의 편수보다 작거나 같을때는 단순히 그 직전 인용 횟수나 해당 편수가 답이 되는 것이 아니라, 그 두 값의 최댓값이 답이 되는 것이었다. 코드로 보면 이렇다.
+>
+> ```c++
+> sort(citations.begin(), citations.end());
+> for (int i = 0; i < citations.size(); i++) {
+>     if (citations[i] == citations.size() - i) {
+>         answer = citations[i]; break;
+>     }
+>     else if (citations[i] > citations.size() - i) {
+>         answer = max(citations[i - 1], (int)citations.size() - i);
+>         // 이 부분에서 두 값의 최대값을 구해야 했다.
+>         break;
+>     }
+> }
+> ```
+>
+
+- [ ] **위장**
+
+> 21.01.09 
+>
+> 재귀를 구현하는게 좀 뻑뻑해졌다 다시 옛날에 풀어봤던 것들 좀 찾아서 익숙해져야겠다.
