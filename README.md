@@ -10,6 +10,12 @@
 
 ### Dynamic Programming
 
+​	◼ [11053 가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)
+
+​	◼ 2248 이진수 찾기
+
+​	◼ 7579 앱
+
 ### Programmers
 
 #### Level 1
@@ -194,3 +200,10 @@
 9. <algorithm> 헤더의 max 함수는 같은 자료형만 비교가 가능
 
    someContainer.size()는 리턴 값이 unsinged int이기 때문에 (int)로 캐스팅 해줘야 한다.
+   
+10. 비교 함수를 정의할 때에는
+
+    asymmetric하고 transitive한 조건을 만족하도록 잘짜야함!
+
+    처음에 인풋 값을 받을 때 애매한 케이스는 아예 제외를 해주어도 된다.
+
