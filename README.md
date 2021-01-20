@@ -8,13 +8,31 @@
 
 ### Divide and Conquer
 
+### Disjoint Set
+
+​	◼ [20040 사이클 게임](https://www.acmicpc.net/problem/20040)
+
+### Minimum Spanning Tree
+
+​	◼ [1922 네트워크 연결](https://www.acmicpc.net/problem/1922)
+
+​	◼ [4792 레드 블루 스패닝 트리](https://www.acmicpc.net/problem/4792)
+
 ### Dynamic Programming
 
 ​	◼ [11053 가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)
 
-​	◼ 2248 이진수 찾기
+​	◼ [2248 이진수 찾기](https://www.acmicpc.net/problem/2248)
 
-​	◼ 7579 앱
+​	◼ [7579 앱](https://www.acmicpc.net/problem/7579)
+
+### Greedy
+
+​	◼ [2878 캔디캔디](https://www.acmicpc.net/problem/2878)
+
+​	◼ [10775 공항](https://www.acmicpc.net/problem/10775)
+
+​	◼ [15513 Lottery for Vitcoins at Moloco](https://www.acmicpc.net/problem/15513)
 
 ### Programmers
 
