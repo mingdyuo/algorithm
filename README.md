@@ -12,11 +12,15 @@
 
 ​	◼ [20040 사이클 게임](https://www.acmicpc.net/problem/20040)
 
-### Minimum Spanning Tree
+### Graph
 
 ​	◼ [1922 네트워크 연결](https://www.acmicpc.net/problem/1922)
 
 ​	◼ [4792 레드 블루 스패닝 트리](https://www.acmicpc.net/problem/4792)
+
+​	◼ [11085 군사 이동](https://www.acmicpc.net/problem/11085)
+
+​	◼ [2234 성곽](https://www.acmicpc.net/problem/2234)
 
 ### Dynamic Programming
 
