@@ -8,6 +8,8 @@
 
 ### Divide and Conquer
 
+​	◼ [8983 사냥꾼](https://www.acmicpc.net/problem/8983)
+
 ### Disjoint Set
 
 ​	◼ [20040 사이클 게임](https://www.acmicpc.net/problem/20040)
@@ -21,6 +23,8 @@
 ​	◼ [11085 군사 이동](https://www.acmicpc.net/problem/11085)
 
 ​	◼ [2234 성곽](https://www.acmicpc.net/problem/2234)
+
+​	◼ [10423 전기가 부족해](https://www.acmicpc.net/problem/10423)
 
 ### Dynamic Programming
 
@@ -171,19 +175,44 @@
 
 ​	◼ []
 
-​	◼ []
-
-​	◼ []
-
-​	◼ []
-
 </details>
 
+<br>
+
 ### Notes For Myself
+
+#### *시간 절약*
+
+1. vector.size()는 O(1)으로 for문의 비교 부분에 넣어서 바로 쓰자.
+2. vector를 처음에 선언한 후, input size를 받고 `v.resize(SIZE);`와 같이 크기를 잡아주면 지역변수를 선언하지 않고 바로 인덱싱해서 값을 입력받을 수 있음!
+
+#### *주의*
 
 1. `floating point exception`
 
    `a % b` 혹은 `a / b`에서 `b = 0`인 경우 발생 가능
+
+2. 소수점이 발생하는 문제를 풀면 항상 경계값에서 주의하자.
+
+3. two pointer 문제 연습을 좀 해야할 것 같다. 경계값과, 증감 순서에 유의하자.
+
+   *<u>반드시</u> 증감* 시행 순서에 따라 시뮬레이션을 진행한 후 코드를 작성하자.
+
+4. <algorithm> 헤더의 max 함수는 같은 자료형만 비교가 가능
+
+   someContainer.size()는 리턴 값이 unsinged int이기 때문에 (int)로 캐스팅 해줘야 한다.
+
+5. 비교 함수를 정의할 때에는
+
+   **asymmetric하고 transitive한 조건을 만족**하도록 잘짜야함!
+
+   처음에 인풋 값을 받을 때 애매한 케이스는 아예 제외를 해주어도 된다.
+
+#### *팁* 
+
+1. "algorithm" 헤더에 max_element는 큐에도 사용 가능
+
+   하지만 시간복잡도는 O(n)이라는 것
 
 2. 알파벳 `char ch;`를 일괄적으로 대문자 혹은 소문자로 변경
 
@@ -191,19 +220,7 @@
 
    (2) 소문자로 : `ch = ch | 32;`
 
-3. "algorithm" 헤더에 max_element는 큐에도 사용 가능
-
-   하지만 시간복잡도는 O(n)이라는 것
-
-4. 소수점이 발생하는 문제를 풀면 항상 경계값에서 주의하자.
-
-5. two pointer 문제 연습을 좀 해야할 것 같다. 경계값과, 증감 순서에 유의하자.
-
-   *<u>반드시</u> 증감* 시행 순서에 따라 시뮬레이션을 진행한 후 코드를 작성하자.
-
-6. vector.size()는 O(1)으로 for문의 비교 부분에 넣어도 되겠다.
-
-7. string container 메소드
+3. string container 메소드
 
    > 1. compare : 문자열 사전순 비교
    >
@@ -215,17 +232,12 @@
    >
    >    3) str1 < str2  →  2
 
-8. min heap 만들기
+4. min heap 만들기
 
    `priority_queue<int, vector<int>, greater<int>> pq`
+
+   근데 귀찮아서 `-` 붙혀서 넣을 때에는 까먹지 않도록!
    
-9. <algorithm> 헤더의 max 함수는 같은 자료형만 비교가 가능
+5. 문자 형태로 인풋 받기
 
-   someContainer.size()는 리턴 값이 unsinged int이기 때문에 (int)로 캐스팅 해줘야 한다.
-   
-10. 비교 함수를 정의할 때에는
-
-    asymmetric하고 transitive한 조건을 만족하도록 잘짜야함!
-
-    처음에 인풋 값을 받을 때 애매한 케이스는 아예 제외를 해주어도 된다.
-
+   2차원 배열 만들지 말고 `string` 배열로 만들어서 한줄씩 넣으면 `[row][col]`형식으로 똑같이 참조 가능. 좀더 효율적인듯
