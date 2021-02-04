@@ -34,6 +34,8 @@
 
 ​	◼ [7579 앱](https://www.acmicpc.net/problem/7579)
 
+​	◼ [Max Array Sum](https://www.hackerrank.com/challenges/max-array-sum/problem?h_l=interview&playlist_slugs%5B%5D%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D%5B%5D=dynamic-programming&isFullScreen=true)
+
 ### Greedy
 
 ​	◼ [2878 캔디캔디](https://www.acmicpc.net/problem/2878)
@@ -41,6 +43,18 @@
 ​	◼ [10775 공항](https://www.acmicpc.net/problem/10775)
 
 ​	◼ [15513 Lottery for Vitcoins at Moloco](https://www.acmicpc.net/problem/15513)
+
+### String manipulation
+
+​	◼ [Alternating Characters](https://www.hackerrank.com/challenges/alternating-characters/problem?h_l=interview&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=strings)
+
+​	◼ [Sherlock and the Valid String](https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem?h_l=interview&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=strings)
+
+​	◼ [Special String Again](https://www.hackerrank.com/challenges/special-palindrome-again/problem?h_l=interview&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=strings)
+
+### Dictionary and hashmaps
+
+​	◼ [Two Strings](https://www.hackerrank.com/challenges/two-strings/problem?h_l=interview&playlist_slugs%5B%5D%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D%5B%5D=dictionaries-hashmaps&isFullScreen=true)
 
 ### Programmers
 
