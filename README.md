@@ -6,6 +6,8 @@
 
 ​	◼ [16337 괄호 추가하기](https://www.acmicpc.net/problem/16637)
 
+​	◼ [단체사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835)
+
 ### Divide and Conquer
 
 ​	◼ [8983 사냥꾼](https://www.acmicpc.net/problem/8983)
@@ -36,6 +38,8 @@
 
 ​	◼ [Max Array Sum](https://www.hackerrank.com/challenges/max-array-sum/problem?h_l=interview&playlist_slugs%5B%5D%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D%5B%5D=dynamic-programming&isFullScreen=true)
 
+​	◼ [땅따먹기](https://programmers.co.kr/learn/courses/30/lessons/12913)
+
 ### Greedy
 
 ​	◼ [2878 캔디캔디](https://www.acmicpc.net/problem/2878)
@@ -51,6 +55,8 @@
 ​	◼ [Sherlock and the Valid String](https://www.hackerrank.com/challenges/sherlock-and-valid-string/problem?h_l=interview&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=strings)
 
 ​	◼ [Special String Again](https://www.hackerrank.com/challenges/special-palindrome-again/problem?h_l=interview&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=strings)
+
+​	◼ [최댓값과 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939)
 
 ### Dictionary and hashmaps
 
@@ -198,7 +204,16 @@
 #### *시간 절약*
 
 1. vector.size()는 O(1)으로 for문의 비교 부분에 넣어서 바로 쓰자.
+
 2. vector를 처음에 선언한 후, input size를 받고 `v.resize(SIZE);`와 같이 크기를 잡아주면 지역변수를 선언하지 않고 바로 인덱싱해서 값을 입력받을 수 있음!
+
+3. 벡터 내 특정 범위의 여러 원소에서 최댓값 구하기
+
+   ```
+   *max_element(arr[i].begin(), arr[i].end());
+   ```
+
+   
 
 #### *주의*
 
