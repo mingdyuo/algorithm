@@ -1,6 +1,6 @@
 # Algorithm Practices by Problem Solving
 
-
+<br>
 
 ### Brute Force
 
