@@ -8,6 +8,10 @@
 
 ​	◼ [단체사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835)
 
+​	◼ [1062 가르침](https://programmers.co.kr/learn/courses/30/lessons/1062)
+
+​	◼ [2589 보물섬](https://programmers.co.kr/learn/courses/30/lessons/2589)
+
 ### Divide and Conquer
 
 ​	◼ [8983 사냥꾼](https://www.acmicpc.net/problem/8983)
@@ -39,6 +43,8 @@
 ​	◼ [Max Array Sum](https://www.hackerrank.com/challenges/max-array-sum/problem?h_l=interview&playlist_slugs%5B%5D%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D%5B%5D=dynamic-programming&isFullScreen=true)
 
 ​	◼ [땅따먹기](https://programmers.co.kr/learn/courses/30/lessons/12913)
+
+​	◼ [9251 LCS](https://www.acmicpc.net/problem/9251)
 
 ### Greedy
 
