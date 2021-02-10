@@ -54,6 +54,10 @@
 
 ​	◼ [15513 Lottery for Vitcoins at Moloco](https://www.acmicpc.net/problem/15513)
 
+​	◼ [1541 잃어버린 괄호](https://www.acmicpc.net/problem/1541)
+
+​	◼ [13305 주유소](https://www.acmicpc.net/problem/13305)
+
 ### String manipulation
 
 ​	◼ [Alternating Characters](https://www.hackerrank.com/challenges/alternating-characters/problem?h_l=interview&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=strings)
