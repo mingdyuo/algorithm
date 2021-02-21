@@ -8,6 +8,8 @@
 
 ​	◼ [단체사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835)
 
+​	◼ [9663 N-Queen](https://www.acmicpc.net/problem/9663)
+
 ### Divide and Conquer
 
 ​	◼ [8983 사냥꾼](https://www.acmicpc.net/problem/8983)
@@ -193,7 +195,7 @@
 
 ​	◼ [전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577)
 
-​	◼ []
+​	◼ [타겟 넘버]
 
 </details>
 
