@@ -1,6 +1,6 @@
 # Algorithm Practices by Problem Solving
 
-
+<br>
 
 ### Brute Force
 
@@ -9,6 +9,10 @@
 ​	◼ [단체사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835)
 
 ​	◼ [9663 N-Queen](https://www.acmicpc.net/problem/9663)
+
+​	◼ [1062 가르침](https://programmers.co.kr/learn/courses/30/lessons/1062)
+
+​	◼ [2589 보물섬](https://programmers.co.kr/learn/courses/30/lessons/2589)
 
 ### Divide and Conquer
 
@@ -42,6 +46,8 @@
 
 ​	◼ [땅따먹기](https://programmers.co.kr/learn/courses/30/lessons/12913)
 
+​	◼ [9251 LCS](https://www.acmicpc.net/problem/9251)
+
 ### Greedy
 
 ​	◼ [2878 캔디캔디](https://www.acmicpc.net/problem/2878)
@@ -49,6 +55,10 @@
 ​	◼ [10775 공항](https://www.acmicpc.net/problem/10775)
 
 ​	◼ [15513 Lottery for Vitcoins at Moloco](https://www.acmicpc.net/problem/15513)
+
+​	◼ [1541 잃어버린 괄호](https://www.acmicpc.net/problem/1541)
+
+​	◼ [13305 주유소](https://www.acmicpc.net/problem/13305)
 
 ### String manipulation
 
