@@ -36,6 +36,8 @@
 
 ​	◼ [2206 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)
 
+​	◼ [2887 행성 터널](https://www.acmicpc.net/problem/2887)
+
 ### Dynamic Programming
 
 ​	◼ [11053 가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)
@@ -71,6 +73,8 @@
 ​	◼ [Special String Again](https://www.hackerrank.com/challenges/special-palindrome-again/problem?h_l=interview&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=strings)
 
 ​	◼ [최댓값과 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939)
+
+​	◼ [9935 문자열 폭발](https://www.acmicpc.net/problem/9935)
 
 ### Dictionary and hashmaps
 
