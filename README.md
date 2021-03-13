@@ -14,6 +14,8 @@
 
 ​	◼ [2589 보물섬](https://programmers.co.kr/learn/courses/30/lessons/2589)
 
+​	◼ [1747 소수 팰린드롬](https://www.acmicpc.net/problem/1747)
+
 ### Divide and Conquer
 
 ​	◼ [8983 사냥꾼](https://www.acmicpc.net/problem/8983)
@@ -37,6 +39,10 @@
 ​	◼ [2206 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)
 
 ​	◼ [2887 행성 터널](https://www.acmicpc.net/problem/2887)
+
+​	◼ [9019 DSLR](https://www.acmicpc.net/problem/9019)
+
+​	◼ [2638 치즈](https://www.acmicpc.net/problem/2638)
 
 ### Dynamic Programming
 
