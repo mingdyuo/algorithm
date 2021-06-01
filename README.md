@@ -24,6 +24,10 @@
 
 ​	◼ [20040 사이클 게임](https://www.acmicpc.net/problem/20040)
 
+### Stack / Queue / Heap
+
+​	◼ [7662 이중 우선순위 큐](https://www.acmicpc.net/problem/7662)
+
 ### Graph
 
 ​	◼ [1922 네트워크 연결](https://www.acmicpc.net/problem/1922)
@@ -235,6 +239,12 @@
 
    ```
    *max_element(arr[i].begin(), arr[i].end());
+   ```
+
+4. 오름차순 `priority_queue` 만들기
+
+   ```c++
+   priority_queue<int, vector<int>, greater<int>> pq_asc;
    ```
 
    
