@@ -86,6 +86,8 @@
 
 ​	◼ [9935 문자열 폭발](https://www.acmicpc.net/problem/9935)
 
+​	◼ [1764 듣보잡](https://www.acmicpc.net/problem/1764)
+
 ### Dictionary and hashmaps
 
 ​	◼ [Two Strings](https://www.hackerrank.com/challenges/two-strings/problem?h_l=interview&playlist_slugs%5B%5D%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D%5B%5D=dictionaries-hashmaps&isFullScreen=true)
